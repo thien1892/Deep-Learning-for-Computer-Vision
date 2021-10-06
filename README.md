@@ -27,7 +27,7 @@
 - Cách load ảnh theo từng batch size
 
 **6. Tăng cường dữ liệu với keras:**
-- Dịch ảnh sang theo chiều ngang hoặc dọc
+- Dịch ảnh theo chiều ngang hoặc dọc
 - Lật ảnh theo chiều ngang hay dọc
 - Xoay ảnh ngẫu nhiên
 - Tăng giảm độ sáng tối ngẫu nhiên
