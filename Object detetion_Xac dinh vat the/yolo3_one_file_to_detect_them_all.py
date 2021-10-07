@@ -10,22 +10,22 @@ from keras.models import Model
 import struct
 import cv2
 
-np.set_printoptions(threshold=np.nan)
-os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
-os.environ["CUDA_VISIBLE_DEVICES"]="0"
+# np.set_printoptions(threshold=np.nan)
+# os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
+# os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
-argparser = argparse.ArgumentParser(
-    description='test yolov3 network with coco weights')
+# argparser = argparse.ArgumentParser(
+#     description='test yolov3 network with coco weights')
 
-argparser.add_argument(
-    '-w',
-    '--weights',
-    help='path to weights file')
+# argparser.add_argument(
+#     '-w',
+#     '--weights',
+#     help='path to weights file')
 
-argparser.add_argument(
-    '-i',
-    '--image',
-    help='path to image file')
+# argparser.add_argument(
+#     '-i',
+#     '--image',
+#     help='path to image file')
 
 class WeightReader:
     def __init__(self, weight_file):
